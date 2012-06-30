@@ -163,7 +163,7 @@ $dt1=date("Y-m-d");
 if (!isset($_POST['submit'])) {
 ?>
 <form method="post" action="<?php echo $PHP_SELF;?>">
-<b>Input title of project:</b>
+<b>Input title of projects:</b>
 <input type="text" name="title" /><br />
 <b>Enter your description:</b>
 <textarea rows="5" cols="20" name="quote" wrap="physical"></textarea>
